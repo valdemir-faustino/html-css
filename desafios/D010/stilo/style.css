@@ -57,7 +57,7 @@ header > h1{
 header >p{
     color: white;
     font-size: 1.2em;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
     font-family: var(--fonte-padrao);
     max-width: 600px;
     padding-right: 10px;
