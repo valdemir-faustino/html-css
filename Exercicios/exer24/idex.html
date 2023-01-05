@@ -14,6 +14,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -26,6 +27,12 @@
             color: white;
         }
 
+        thead >tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:rgb(38, 38, 38); ;
+        }
+
         caption{
             font-size: 1.5em;
             font-weight: bold;
@@ -34,7 +41,7 @@
             border: 1px solid black;
         }
 
-        tbody > tr:nth-child(2n){
+        tbody > tr:nth-child(odd){
             background-color: lightgray;
         }
 
@@ -73,6 +80,7 @@
             <td>Aracaju</td>
             <td class="num">30.000</td>
         </tr>
+             
         <tfoot>
             <th scope="row">Total de Habitantes</th>
             <td class="num">380.000</td>
