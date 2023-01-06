@@ -1,6 +1,6 @@
 function temp(request, response){
     const dynamicDate= new Date ();
     response.json({
-        data:DynamicsCompressorNode.toGMTString()});
+        data:dynamicDate.toGMTString()});
 }
 export default temp;
